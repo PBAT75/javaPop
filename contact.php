@@ -21,6 +21,7 @@ require 'pageStandard.php';
                                 <p class="help-block text-danger"></p>
                             </div>
                             <div class="form-group">
+                                <label class="selectSujet">
                                 <select class="form-control" id="Select" >
                                     <option>Selectionnez un sujet...</option>
                                     <option>Privatiser la JAVAPOP</option>
@@ -28,6 +29,7 @@ require 'pageStandard.php';
                                     <option>Animation sur demande</option>
                                     <option>Autre sujet</option>
                                 </select>
+                                </label>
                             </div>
                             <div class="form-group">
                                 <textarea class="form-control" id="message" placeholder="Votre Message *" required="required" data-validation-required-message="S'il vous plait écrivez votre mesage."></textarea>
@@ -38,19 +40,19 @@ require 'pageStandard.php';
                             <ul class="list-unstyled">
                                 <li class="media">
                                     <img class="mr-3" src="http://www.javapop.fr/ressources/img/event_location.jpg" height="150px" alt="Generic placeholder image">
-                                    <div class="media-body">
+                                    <div class="media-body border-media">
                                         <h5 class="mt-0 mb-1">Privatiser La JAVAPOP</h5>
                                     </div>
                                 </li>
                                 <li class="media my-4">
-                                    <div class="media-body">
+                                    <div class="media-body border-media">
                                         <h5 class="mt-0 mb-1 text-right">Organiser un concert</h5>
                                     </div>
-                                    <img class="mr-3" src="http://www.javapop.fr/ressources/img/event_concert.jpg" height="150px" alt="Generic placeholder image">
+                                    <img class="ml-3" src="http://www.javapop.fr/ressources/img/event_concert.jpg" height="150px" alt="Generic placeholder image">
                                 </li>
-                                <li class="media">
+                                <li class="media bo">
                                     <img class="mr-3" src="http://www.javapop.fr/ressources/img/event_insolite.jpg" height="150px" alt="Generic placeholder image">
-                                    <div class="media-body">
+                                    <div class="media-body border-media">
                                         <h5 class="mt-0 mb-1">Animation sur demande</h5>
                                     </div>
                                 </li>
