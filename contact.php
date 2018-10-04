@@ -5,7 +5,7 @@ require 'pageStandard.php';
 ?>
 
 <!-- Contact -->
-<section id="contact" class="formulaire">
+<section id="contact" class="formulaire pContact">
     <div class="container-fluid">
         <div class="row justify-content-around">
             <div class="col-lg-12">
