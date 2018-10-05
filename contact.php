@@ -35,6 +35,11 @@ require 'pageStandard.php';
                                 <textarea class="form-control" id="message" placeholder="Votre Message *" required="required" data-validation-required-message="S'il vous plait écrivez votre mesage."></textarea>
                                 <p class="help-block text-danger"></p>
                             </div>
+                            <div>
+                                <div class="buttonForm">
+                                    <button id="sendMessageButton" class="btn btn-primary btn-xl text-uppercase" type="submit">Send Message</button>
+                                </div>
+                            </div>
                         </div>
                         <div class="col-md-6 prestation">
                             <ul class="list-unstyled">
@@ -57,12 +62,6 @@ require 'pageStandard.php';
                                     </div>
                                 </li>
                             </ul>
-                        </div>
-
-                        <div class="clearfix"></div>
-                        <div class="col-lg-12 text-center">
-                            <div id="success"></div>
-                            <button id="sendMessageButton" class="btn btn-primary btn-xl text-uppercase" type="submit">Send Message</button>
                         </div>
                     </div>
                 </form>

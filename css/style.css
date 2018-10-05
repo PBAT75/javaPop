@@ -58,8 +58,12 @@ footer p
     width: 13vw;
 }
 .selectSujet{
-
+ width: 100%;
 }
 .pContact {
     margin-top: -6%;
+}
+
+.buttonForm{
+   margin-bottom: 3vh;
 }
